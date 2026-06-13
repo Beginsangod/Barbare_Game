@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #141414;
+}
+
+#container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameArea{
+    width: 99%;
+    height: 99%;
+    background: rgb(151, 152, 157);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 3px #143518;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+.platform {
+    width: 20px;
+    height: 20px;
+    background: url('assets/platform.png');
+}
+
+.wall {
+    width: 20px;
+    height: 20px;
+    background: url('assets/wall.png');
+}
+
+#footer {
+    width: auto;
+    height: 80px;
+    background-color: rgb(8, 11, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: 2px solid #143518;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+}
+
+#footer i {
+    position: relative;
+    top: 2px;
+    font-size: 20px;
+}
